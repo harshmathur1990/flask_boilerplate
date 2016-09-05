@@ -1,0 +1,23 @@
+port: 8001
+
+mysql:
+    connection: mysql+pymysql://root:root@localhost/flaskboilerplatedb
+
+logfile:
+    foldername: flaskboilerplate_logs
+    logfilename: FlaskProject.out
+    errorlogfilename: FlaskProjectErrors.log
+
+debug: True
+
+redis:
+    host: localhost
+    port: 6379
+    db: 4
+
+
+kafka:
+  host: localhost:9092
+  zookeeper: localhost:2181
+
+kafkatopic: testtopic

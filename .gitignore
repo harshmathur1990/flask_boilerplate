@@ -1,0 +1,7 @@
+*.pyc
+*.idea
+*.DS_STORE
+*.out
+*.log
+/logs/*
+dump.rdb
